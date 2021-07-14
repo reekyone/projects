@@ -1,0 +1,199 @@
+body, html {
+    margin: 0px;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(70, 70, 70);
+}
+
+nav ul {
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    float: left;
+    padding: 20px 25px;
+    font-size: 24px;
+    color: white;
+}
+
+nav li a:hover {
+    color: black;
+}
+
+#one h1, #two h1, #three h1, #four h1 {
+    margin: 0px;
+}
+
+#one {
+    background-image: url("images/nes.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#one h1, #one h2, #one p, #two h1, #two h2, #two a, #three h1, #three h2, #three p, #three ul,
+#footer-nav {
+    color: white;
+}
+
+#one h1 {
+    font-size: 72px;
+    padding-top: 15vh;
+    padding-bottom: 40px;
+}
+
+#one h2 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+#one p {
+    font-size: 24px;
+    width: 960px;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+
+#two {
+    height: 100vh;
+    background-image: url("images/ps.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#two h1 {
+    padding-top: 250px;
+    font-size: 60px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+#two h2 {
+    padding-bottom: 70px;
+    width: 960px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+#two a {
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#two a:hover {
+    background-color: rgb(160, 2, 2);
+}
+
+#three {
+    height: 100vh;
+    background-image: url("images/3ds-2.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#three h1 {
+    padding-top: 100px;
+    font-size: 72px;
+    margin: 0 auto;
+}
+
+#three h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 960px;
+    margin: 0 auto;
+    font-size: 36px;
+}
+
+#three p {
+    font-size: 24px;
+    width: 960px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+#three .console {
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    border-bottom: 5px solid white;
+    width: 230px;
+}
+
+#three ul {
+    text-align: left;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#three li {
+    font-size: 24px;
+    padding: 3px;
+}
+
+#four {
+    height: 100vh;
+    background-image: url("images/two-ps.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#four h1 {
+    padding-top: 70px;
+    font-size: 72px;
+    margin: 0 auto;
+}
+
+#four h2 {
+    padding-top: 675px;
+    padding-bottom: 20px;
+    width: 960px;
+    margin: 0 auto;
+    font-size: 36px;
+}
+
+#four p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgb(70, 70, 70);
+    padding: 10px;
+    overflow:hidden;
+}
+
+#footer-nav {
+    margin-left: 20px;
+    float: left;
+}
+
+footer .small-logo {
+    padding-top: 10px;
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+    float: right;
+}

@@ -1,0 +1,130 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, h1 {
+    margin: 0px;
+}
+
+/* Landing Page photo and introduction */
+#cover_photo {
+    background-image: url("images/cover.jpg");
+    min-height: 100%;
+}
+
+#cover_text {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 40vh;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+}
+
+#cover_text button {
+    color: black;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
+    font-size: 1em;
+}
+
+#cover_text button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+}
+/* End Landing Page Photo */
+
+/* Navigation Bar */
+#navbar {
+    text-align: center;
+    height: 175px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding-top: 60px;
+}
+
+#navbar li {
+    display: inline;
+    font-size: 1.5em;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 2em;
+}
+
+#navbar li a:hover {
+    text-decoration: underline;
+}
+
+.right_border {
+    border-right: 1px solid black;
+}
+/* End Navigation Bar */
+
+/* Information */
+#info {
+    color: white;
+    background-color: #b56a38;
+    overflow: auto;
+
+}
+
+.column_1, .column_2, .column_3 {
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin: 50px 0px;
+    height: 475px;
+}
+
+.column_1 h1, .column_2 h1, .column_3 h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.column_1 p, .column_2 p, .column_3 p {
+    width: 25em;
+    margin: 0px auto;
+}
+
+.column_1 img, .column_2 img, .column_3 img {
+    height: 250px;
+}
+
+.column_1, .column_2 {
+    border-right: 1px solid white;
+}
+/* End Information */
+
+/* Footer */
+#footer {
+    color: white;
+    background-color: black;
+    height: 60px;
+}
+
+#footer p {
+    margin: 0px;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+/* End Footer */

@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color: lightgray;
+}
+
+#page {
+    width: 960px;
+    margin: auto auto;
+    background-color: white;
+    box-shadow: 
+       20px 0px 20px gray,
+       -20px 0px 20px gray;
+}
+
+header {
+    background-image: url("images/title.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+}
+
+nav {
+    width: 415px;
+    padding-top: 350px;
+    text-align: center;
+}
+
+nav h1{
+    width: 300px;
+    text-align: center;
+    margin: 0px auto;
+    font-size: 48px;
+}
+
+nav h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: 550;
+    color: rgb(158, 158, 158);
+}
+
+nav a {
+    border: 1px solid rgb(228, 228, 228);
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 40px;
+    color: black;
+    font-size: 24px;
+}
+
+nav a:hover {
+    background-color: rgb(228, 228, 228);
+    border: 1px solid white;
+    transition-duration: 0.5s
+}
+
+.work-page {
+    background: black;
+    height: 70px;
+}
+
+.work-text {
+    padding-top: 20px;
+}
+
+.work-text p {
+    margin: 0 auto;
+    color: white;
+    width: 150px;
+    border-right: 1px dotted white;
+    border-left: 1px dotted white;
+    text-align: center;
+    font-size: 24px;
+}
+
+article {
+    height: 70vh;
+}
+
+#first {
+    background-image: url("images/first.jpg");
+}
+
+#second {
+    background-image: url("images/second.jpg");
+}
+
+#third {
+    background-image: url("images/third.jpg");
+}
+
+#fourth {
+    background-image: url("images/fourth.jpg");
+}
+
+.description-box {
+    background-color: rgb(228, 228, 228);
+}
+
+.description-text {
+    padding-top: 20px;
+}
+
+.description-text h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 36px;
+}
+
+.description-text p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    margin: 0;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+footer h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin: 10px;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: blue;
+}
