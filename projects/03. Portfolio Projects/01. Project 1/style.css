@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#page {
+    width: 960px;
+    margin: 0px auto;
+}
+
+header {
+    margin-top: 30px;;
+    border-left: 1px solid rgb(216, 216, 216);
+    border-right: 1px solid rgb(216, 216, 216);
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
+span img {
+    position: absolute;
+    margin-left: 70px;
+    top: 20px;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    margin-right: 30px;
+    font-size: 110%;
+    letter-spacing: 1px;
+    padding-bottom: 2px;
+}
+
+nav a:hover {
+    
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+#content {
+    margin-top: 60px;
+}
+
+.content-title {
+    text-align: center;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding-bottom: 40px;
+}
+
+.content-title p {
+    letter-spacing: 1px;
+    font-size: 150%;
+    margin: 2px;
+}
+
+.content-intro {
+    margin-top: 20px;
+    height: 450px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 50px;
+}
+
+.view-portfolio {
+    float: right;
+    border: 1px solid black;
+    margin-top: 300px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(5,0,84);
+    background: linear-gradient(90deg, rgba(5,0,84,1) 0%, rgba(4,4,167,1) 0%, rgba(0,90,108,1) 100%);
+    border-radius: 30px;
+}
+
+.view-portfolio a {
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 110%;
+    border-radius: 30px;
+}
+
+.view-portfolio:hover {
+    background: rgb(5,0,84);
+}
+
+footer {
+    width: 960px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    border-top: 1px solid rgb(216, 216, 216);
+}
+
+.footer-copyright {
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 80%;
+}
+
+footer p {
+    padding-right: 150px;
+    margin-top: 20px
+}
+
+.footer-socialmedia {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+footer img {
+    padding: 10px;
+}
+
+img.small {
+    height: 30px;
+}

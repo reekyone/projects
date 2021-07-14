@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+}
+
+header {
+    font-family: sans-serif;
+    overflow: auto;
+    font-size: 90%;
+    height: 4em;
+}
+
+header div.about {
+    float: left;
+    padding-left: 1em;
+    margin-top: 20px;
+}
+
+header div.settings {
+    float: right;
+    padding-right: 1em;
+    margin-top: 20px;
+}
+
+header div.about a, header div.settings a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+header div.about a:hover, header div.settings a:hover  {
+    background-color: rgb(54, 54, 54);
+}
+
+article.logo {
+    margin-top: 10em;
+    color: white;
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article.logo img {
+    float: left;
+}
+
+article.logo h1 {
+    font-size: 300%;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+article input.search-bar {
+    width: 500px;
+    height: 45px;
+    letter-spacing: 1px;
+}
+
+article input.submit-button {
+    width: 80px;
+    height: 45px; 
+}

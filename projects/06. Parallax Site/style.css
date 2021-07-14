@@ -1,0 +1,86 @@
+body, html {
+    height: 100%;
+}
+
+body, p, h1 {
+    margin: 0px;
+}
+
+.parallax {
+    background-image: url("images/garden.jpg");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.parallax h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 500px;
+}
+
+.first_text {
+    height: 300px;
+    background-color: white;
+    font-size: 18px;
+    max-width: 700px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.first_text h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.parallax_2 {
+    background-image: url("images/pink-flower.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.parallax_2 h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 150px;
+}
+
+.second_text, .third_text {
+    height: 150px;
+    background-color: rgb(53, 66, 92);
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.second_text p, .third_text p {
+    padding-top: 60px;
+}
+
+.parallax_3 {
+    background-image: url("images/yellow-flower.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.parallax_3 h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 250px;
+}
+

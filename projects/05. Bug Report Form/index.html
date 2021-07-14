@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bug Report Form</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="description" content="Example Bug Report Form">
+    </head>
+
+    <body>
+        <div id="page">
+            <div id="heading">
+                <h1>Bug Report Form</h1>
+                <p>Thank you for your report</p>     
+            </div>
+
+            <div id="forms">
+                <form action="https://www.example.com/example.php" method="get">
+                    <fieldset>
+                        <legend>Your Details</legend>
+                        <label>
+                            Username <br />
+                            <input type="text" name="name" maxlength="20">
+                        </label>
+                        <br /><br />
+                        <label>
+                            Server <br />
+                            <input type="radio" name="server" value="alpha" />Alpha
+                            <input type="radio" name="server" value="beta" />Beta
+                            <input type="radio" name="server" value="charlie" />Charlie
+                        </label>
+                    </fieldset><br />
+
+                    <fieldset>
+                        <legend>Bug Report</legend>
+                        <label>
+                            Date <br />
+                            <input type="date" name="day">
+                        </label>
+                        <br /><br />
+                        <label>
+                            Category <br />
+                            <select name="category">
+                                <option value="account">Account Issue</option>
+                                <option value="technical">Technical Issue</option>
+                                <option value="ingame">Ingame Issue</option>
+                            </select>
+                        </label>
+                        <br /><br />
+                        <label>
+                            Tell us about the bug <br />
+                            <textarea name="comments"></textarea>
+                        </label>
+                    </fieldset>
+                    
+                    <div class="button">
+                        <input type="submit" name="submit" value="Submit">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+        
+    </body>
+
+</html>

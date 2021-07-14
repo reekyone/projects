@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(32, 32, 32);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page {
+    width: 960px;
+    margin: 0px auto;
+    font-size: 1.2em;
+    
+}
+
+#heading {
+    text-align: center;
+    color: white;
+}
+
+#forms {
+    color: white;
+}
+
+fieldset {
+    border-radius: 10px;
+    
+}
+
+legend {
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px;
+    color: white;
+    border-color: white;
+}
+
+.button {
+    padding: 10px 10px;
+}
+
+.button input {
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.button input:hover {
+    background-color: rgb(212, 212, 212);
+    border: 1px solid rgb(109, 109, 109);
+}
