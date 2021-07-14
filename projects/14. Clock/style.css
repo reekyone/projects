@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+#page {
+    background-image: url("images/morning.jpg");
+    height: 100vh;
+    text-align: center;
+}
+
+#page p {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+}
+
+#content {
+    padding-top: 180px;
+}
+
+#clock {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6em;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+    padding: 20px 0;
+}
+
+button {
+    font-size: 1em;
+}

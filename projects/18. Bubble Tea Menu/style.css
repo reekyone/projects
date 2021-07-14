@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+#page {
+    width: 960px;
+    margin: auto auto;
+    overflow: auto;
+}
+
+header {
+    margin-bottom: 5em;
+}
+
+header ul {
+    list-style-type: none;
+    text-align: center;
+}
+header li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header li a {
+    text-decoration: none;
+    font-size: 1.25em;
+    color: black;
+    letter-spacing: 0.1em;
+    padding: 5px;
+}
+
+header li a:hover {
+    border-bottom: 1px solid black;
+}
+
+nav a img {
+    width: 30px;
+    float: right;
+    margin: 0 5px;
+}
+
+img {
+    width: 100%;
+    padding-bottom: 2em;    
+}
+
+section {
+    float: left;
+    width: 300px;
+    margin: 0 10px;
+}
+
+.type {
+    margin-bottom: 2.5em;
+    padding-left: 4em;
+}
+
+.type h2 {
+    margin-bottom: 0.4em;
+}
+
+.type p {
+    margin: 0.5em 0.75em;
+}
+

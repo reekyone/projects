@@ -1,0 +1,48 @@
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed; /* Makes overlay stay in place */
+    z-index: 1; /* Places overlay on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9);  /* Black with opacity */
+    overflow-x: hidden; /* Hides horizontal scroll */
+    transition: 0.5s; /* Transition speed of effect */
+}
+
+.overlay-content {
+    position: relative; /* Positions relative to the parent element */
+    top: 25%;
+    width: 100%;
+    text-align: center; /* Center aligns content */
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 10px;
+    text-decoration: none; /* Removes underline */
+    font-size: 2em;
+    color: gray;
+    display: block; /* Displays as blocks instead of inline */
+    transition: 0.3s; /* Transition for a:hover (color) */
+}
+
+.overlay a:hover {
+    color: white;
+}
+
+.overlay .closebtn {
+    position: absolute; /* This and next line align close-nav button to the right */
+    right: 45px;
+    font-size: 4em;
+}
+
+.closebtn {
+    color: white;
+}
+
+span:hover {
+    cursor: pointer; /* Changes cursor to a pointer if hovering over the open-nav button */
+}
+
