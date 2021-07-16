@@ -1,2 +1,3 @@
 # small-projects
-List of Projects 
+List of small projects I've done
+
